@@ -6,6 +6,7 @@
     </div>
     <router-view/>
     <button id="test1">不要点我</button>
+    <el-button type="primary">不要点我</el-button>
   </div>
 </template>
 
