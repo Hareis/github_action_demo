@@ -1,6 +1,6 @@
 var path = require("path");
 var webpack = require('webpack');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+//const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 module.exports = {
     lintOnSave: false,
     configureWebpack:config => {
@@ -16,7 +16,7 @@ module.exports = {
                 }
             }, 
             plugins: [
-              new BundleAnalyzerPlugin()
+              //new BundleAnalyzerPlugin()
             ]
           }
         } else {
