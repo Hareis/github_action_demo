@@ -1,5 +1,5 @@
 import ElementUI from "element-ui";
-import Input from "./common/VInput";
+import Input from "./common/VInput/VInput";
 let keys = Object.keys(ElementUI);
 let excludeArr = [
   "Input",
