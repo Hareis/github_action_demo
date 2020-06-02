@@ -31,8 +31,11 @@
   color: #42b983;
 }
 </style>
-<style lang="scss">
-  #test1:hover{
+<style lang="scss" scoped>
+  #test1{
+    color:red;
+  }
+  #test1 :hover{
     background:color;
   }
 </style>
