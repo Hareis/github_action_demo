@@ -33,7 +33,7 @@ module.exports = {
           }
         }
     },
-    publicPath: '/manage/',
+    publicPath: '/manage/', 
     // pages: {
     //   index: {
     //     // entry for the page
